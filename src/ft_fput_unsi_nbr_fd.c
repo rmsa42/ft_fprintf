@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_fput_unsi_nbr_fd.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rumachad <rumachad@student.42.fr>          +#+  +:+       +#+        */
+/*   By: rumachad <rumachad@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/01 13:16:06 by rumachad          #+#    #+#             */
-/*   Updated: 2023/12/27 09:39:01 by rumachad         ###   ########.fr       */
+/*   Updated: 2024/02/06 14:30:23 by rumachad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../ft_fprintf.h"
+#include "ft_fprintf.h"
 
 static int	len(unsigned int num)
 {

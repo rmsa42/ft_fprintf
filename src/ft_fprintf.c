@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_fprintf.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rumachad <rumachad@student.42.fr>          +#+  +:+       +#+        */
+/*   By: rumachad <rumachad@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/27 11:37:12 by rumachad          #+#    #+#             */
-/*   Updated: 2023/12/27 09:38:31 by rumachad         ###   ########.fr       */
+/*   Updated: 2024/02/06 14:30:10 by rumachad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../ft_fprintf.h"
+#include "ft_fprintf.h"
 
 int	formats(const char format, va_list args, int nw, int fd)
 {

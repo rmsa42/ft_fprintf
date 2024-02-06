@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_fprintpointer_fd.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rumachad <rumachad@student.42.fr>          +#+  +:+       +#+        */
+/*   By: rumachad <rumachad@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/02 10:04:16 by rumachad          #+#    #+#             */
-/*   Updated: 2023/12/27 09:38:54 by rumachad         ###   ########.fr       */
+/*   Updated: 2024/02/06 14:35:43 by rumachad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../ft_fprintf.h"
+#include "ft_fprintf.h"
 
 static int	len(unsigned long num)
 {
@@ -25,12 +25,12 @@ static int	len(unsigned long num)
 	return (i);
 }
 
-int	ft_printpointer_start_fd(unsigned long nbr, int fd)
+int	ft_fprintpointer_start_fd(unsigned long nbr, int fd)
 {
 	if (nbr == 0)
 		return (write(fd, "(nil)", 5));
 	write(fd, "0x", 2);
-	return (ft_printpointer_fd(nbr, fd));
+	return (ft_fprintpointer_fd(nbr, fd));
 }
 
 int	ft_fprintpointer_fd(unsigned long nbr, int fd)

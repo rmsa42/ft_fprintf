@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_fputstr_fd.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rumachad <rumachad@student.42.fr>          +#+  +:+       +#+        */
+/*   By: rumachad <rumachad@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/20 09:29:49 by rumachad          #+#    #+#             */
-/*   Updated: 2023/12/26 16:54:56 by rumachad         ###   ########.fr       */
+/*   Updated: 2024/02/06 14:30:29 by rumachad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../ft_fprintf.h"
+#include "ft_fprintf.h"
 
 int	ft_fputstr_fd(char *s, int fd)
 {

@@ -3,15 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_fprintf.h                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rumachad <rumachad@student.42.fr>          +#+  +:+       +#+        */
+/*   By: rumachad <rumachad@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/27 13:17:58 by rumachad          #+#    #+#             */
-/*   Updated: 2023/12/27 09:38:18 by rumachad         ###   ########.fr       */
+/*   Updated: 2024/02/06 14:30:04 by rumachad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FT_PRINTF_H
-# define FT_PRINTF_H
+#ifndef FT_FPRINTF_H
+# define FT_FPRINTF_H
 
 # include <stdio.h>
 # include <stdlib.h>

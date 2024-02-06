@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_fputnbr_fd.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rumachad <rumachad@student.42.fr>          +#+  +:+       +#+        */
+/*   By: rumachad <rumachad@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/20 09:41:53 by rumachad          #+#    #+#             */
-/*   Updated: 2023/12/26 16:54:53 by rumachad         ###   ########.fr       */
+/*   Updated: 2024/02/06 14:30:27 by rumachad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../ft_fprintf.h"
+#include "ft_fprintf.h"
 
 static int	len(int num)
 {

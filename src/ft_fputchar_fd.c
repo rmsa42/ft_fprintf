@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_fputchar_fd.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rumachad <rumachad@student.42.fr>          +#+  +:+       +#+        */
+/*   By: rumachad <rumachad@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/20 09:05:00 by rumachad          #+#    #+#             */
-/*   Updated: 2023/12/27 09:39:05 by rumachad         ###   ########.fr       */
+/*   Updated: 2024/02/06 14:30:25 by rumachad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../ft_fprintf.h"
+#include "ft_fprintf.h"
 
 int	ft_fputchar_fd(char c, int fd)
 {
